@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-50: #fdf2f8;
+  --color-gold-100: #fce7f3;
+  --color-gold-200: #fbcfe8;
+  --color-gold-300: #f9a8d4;
+  --color-gold-400: #f472b6;
+  --color-gold-500: #ec4899;
+  --color-gold-600: #db2777;
+  --color-gold-700: #be185d;
+  --color-gold-800: #9d174d;
+  --color-gold-900: #831843;
+  --color-accent: #a78bfa;
+  --color-accent-dark: #8b5cf6;
+  --color-cream: #fdf4ff;
+}
