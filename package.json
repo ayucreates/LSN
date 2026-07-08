@@ -8,7 +8,8 @@
     "dev:client": "vite",
     "dev:server": "npm run dev --prefix server",
     "build": "tsc -b && vite build",
-    "start": "NODE_ENV=production npm run build && tsx server/src/index.ts",
+    "start": "NODE_ENV=production tsx server/src/index.ts",
+    "postinstall": "npm install --prefix server",
     "lint": "oxlint",
     "preview": "vite preview"
   },
@@ -27,6 +28,7 @@
     "concurrently": "^10.0.3",
     "oxlint": "^1.71.0",
     "tailwindcss": "^4.3.2",
+    "tsx": "^4.19.0",
     "typescript": "~6.0.2",
     "vite": "^8.1.1"
   }
